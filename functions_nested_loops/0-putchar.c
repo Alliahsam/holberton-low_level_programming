@@ -1,11 +1,21 @@
-#include<stdio.h>
-#include<main.h>
-/*
- * putchar writes a char specified by the arg char to stdout
- */
-int main()
+#include "stdio.h"
+
+/**
+  * main - Entry point
+  *
+  * Return: Always 0
+  */
+int main(void)
 {
-char ch = '_putchar';
-putchar(ch);
-return(0);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
+	return (0);
 }
